@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background: #1F2937;
+    height: 500px;
+}
+
+.top-section{
+    display: flex;
+}
+
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    color: #E5E7EB;
+}
+
+.rectangle{
+    height: 120px;
+    width: 300px;
+    background: gray;
+}
+
+.middle-section{
+    background: white;
+}
+
+.quote{
+    background: #E5E7EB;
+}
+
+.call-to-action{
+    background: #3882F6;
+    justify-content: flex-end;
+}
+
+footer{
+    background: #1F2937;
+}
