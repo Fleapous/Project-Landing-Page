@@ -16,6 +16,8 @@ header{
 
 .top-section{
     display: flex;
+    justify-content: space-between;
+    padding: 20px 60px 60px;
 }
 
 #logo{
@@ -29,10 +31,44 @@ ul{
     color: #E5E7EB;
 }
 
+.links{
+    padding: 15px;
+}
+
 .rectangle{
-    height: 120px;
-    width: 300px;
-    background: gray;
+    background: #E5E7EB;
+    margin-left: 30px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 60px;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.left-part, .rectangle{
+    flex: 1 1 0px;
+}
+
+#button1{
+    color: #F9FAF8;
+    background: #3882F6;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 .middle-section{
