@@ -85,7 +85,7 @@ h1{
     height: 500px;
 }
 
-h2{
+#random-info{
     font-size: 36px;
     color: #1F2937;
     padding-top: 20px;
@@ -152,12 +152,36 @@ h3{
 /* call to action section */
 
 .call-to-action{
+    display: flex;
+    justify-content: space-around;
     background: #3882F6;
-    justify-content: flex-end;
+    margin: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+}
+
+.text-part{
+    color: #F9FAF8;
+
+}
+
+#sign-button{
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: #F9FAF8 2px solid;
+    height: 30px;
+    width: 100px;
 }
 
 /* footer */
 
 footer{
     background: #1F2937;
+    padding: 30px;
+    color: #F9FAF8;
+    text-align: center;
 }
